@@ -29,11 +29,11 @@ export default function EventosPage() {
     },
     {
       id: 3,
-      title: "Palestra: Inteligência Artificial na Indústria",
-      date: "10 de Maio, 2025",
-      time: "19:00 - 21:00",
-      location: "Auditório 2",
-      description: "Descubra como a IA está transformando os processos industriais e criando novas oportunidades.",
+      title: "Oficina de Git e GitHub",
+      date: "17 de Maio, 2025",
+      time: "13:00 - 16:00",
+      location: "Laboratório 2",
+      description: "Domine o controle de versão e colaboração em projetos de software com Git e GitHub.",
       image: "/ai-lecture-hall.png",
       tag: "Palestra",
     },
@@ -200,7 +200,7 @@ export default function EventosPage() {
         </div>
 
         <div className="text-center mt-8">
-          <Button variant="outline" className="button-outline">
+          <Button variant="default" className="button-outline">
             Ver todos os eventos passados
             <ChevronRight className="h-4 w-4 ml-1" />
           </Button>

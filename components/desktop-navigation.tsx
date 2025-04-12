@@ -5,6 +5,8 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X, Home, Calendar, Users, MessageSquare, ChevronRight } from "lucide-react"
 import { cn } from "@/lib/utils"
+import Image from "next/image"
+
 
 export default function DesktopNavigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -58,11 +60,13 @@ export default function DesktopNavigation() {
       >
         <div className="p-6 border-b border-gov-gray-200 bg-gradient-to-br from-gov-blue-50 to-white">
           <div className="flex items-center space-x-3">
-            <div className="flex">
-              <div className="w-1 h-8 bg-gov-blue-900 mr-0.5 rounded-full"></div>
-              <div className="w-1 h-8 bg-gov-yellow mr-0.5 rounded-full"></div>
-              <div className="w-1 h-8 bg-gov-green mr-2 rounded-full"></div>
-            </div>
+             <Image
+                            src="/caencss-logo.png"
+                            alt="Logo CAENC"
+                            width={200}
+                            height={100}
+                            className="h-auto w-[50px] sm:w-[80px] md:w-[80px] lg:w-[80px]"
+                          />
             <div>
               <h2 className="text-gov-blue-900 font-bold text-lg font-display">CAENC</h2>
               <p className="text-gov-gray-600 text-xs">Centro Acadêmico de Engenharia da Computação</p>
@@ -113,7 +117,10 @@ export default function DesktopNavigation() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center text-sm text-gov-blue-700 hover:text-gov-blue-900">
+                  <a href="https://www.unifesspa.edu.br/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-sm text-gov-blue-700 hover:text-gov-blue-900">
                     <span className="w-1.5 h-1.5 bg-gov-blue-500 rounded-full mr-2"></span>
                     Portal da Universidade
                   </a>

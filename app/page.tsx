@@ -44,10 +44,10 @@ export default function Home() {
     },
     {
       id: 2,
-      title: "Workshop de Desenvolvimento Web",
-      date: "25 de Abril, 2025",
-      time: "14:00 - 17:00",
-      location: "Laboratório 3",
+      title: "Oficina de Git e GitHub",
+      date: "17 de Abril, 2025",
+      time: "14:00 - 17:30",
+      location: "Laboratório 2",
       image: "/coding-workspace.png",
     },
   ]
@@ -59,23 +59,17 @@ export default function Home() {
         <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none lg:w-full">
           <div className="card-modern p-5 sm:p-6 flex flex-col lg:flex-row lg:justify-between lg:items-center hover-lift">
             {/* Logo for mobile and desktop */}
-            <div className="flex items-center mb-4 sm:mb-5 lg:mb-0">
-              <div className="flex mr-3 sm:mr-4">
-                <div className="w-1.5 sm:w-2 h-10 sm:h-14 bg-gov-blue-900 mr-0.5 sm:mr-1 rounded-full"></div>
-                <div className="w-1.5 sm:w-2 h-10 sm:h-14 bg-gov-yellow mr-0.5 sm:mr-1 rounded-full"></div>
-                <div className="w-1.5 sm:w-2 h-10 sm:h-14 bg-gov-green rounded-full"></div>
-              </div>
-              <div className="relative">
+            <div className="">
+             
+              <div className="flex items-center justify-center relative">
                 <Image
-                  src="/CAENC LOGO.png"
+                  src="/caencss-logo.png"
                   alt="Logo CAENC"
                   width={200}
                   height={100}
-                  className="h-auto w-[150px] sm:w-[180px] md:w-[200px] lg:w-[180px]"
+                  className="h-auto w-[200px] sm:w-[180px] md:w-[200px] lg:w-[200px]"
                 />
-                <div className="absolute -bottom-1 -right-1 bg-gov-blue-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded">
-                  2025
-                </div>
+       
               </div>
             </div>
 

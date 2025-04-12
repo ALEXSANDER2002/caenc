@@ -57,7 +57,7 @@ export default function RootLayout({
         <meta name="msapplication-tap-highlight" content="no" />
 
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/icons/caencss-logo-mobile.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="167x167" href="/icons/icon-167x167.png" />
 
@@ -75,7 +75,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <div className="flex flex-col min-h-screen bg-gov-gray-50">
             <header className="bg-gradient-to-r from-gov-blue-900 to-gov-blue-800 text-white py-2 px-4 text-center text-sm font-medium shadow-sm">
-              República Federativa do Brasil
+              Faculdade de Engenharia da Computação
             </header>
             <main className="flex-1 container mx-auto px-4 pb-20 lg:pb-8 lg:pt-4">{children}</main>
             <BottomNavigation />
